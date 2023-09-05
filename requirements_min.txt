@@ -1,0 +1,53 @@
+opencv-python #cv2
+matplotlib 
+numpy
+Pillow #PIL
+plotly
+lightning #pytorch_lightning
+scikit-image #skimage
+scikit-learn #sklearn
+torch
+torchvision
+tqdm
+transformers
+shapely
+
+
+
+# argparse
+# copy
+# codecs
+# collections
+# datetime
+# enum
+# json
+# math
+# os
+# statistics
+# time
+# typing
+# multiprocessing
+# functools
+# re
+# xml
+
+# vit_model
+
+
+# Anomaly_detection_BG_FG
+# Anomaly_Detector
+# BB_dataset_creator
+# datasets
+# dota_dataset
+# DOTA_devkit
+# polyiou (part of DOTA_devkit)
+# image_pyramid_patches_dataset
+# results
+# utils
+# Embedder
+
+
+# mmdet
+# mmengine
+# mmrotate
+

@@ -4,7 +4,7 @@ import torch
 from torchvision.utils import save_image
 from tqdm import tqdm
 
-from Anomaly_detection_BG_FG_patches_ver import create_dataloader, create_gaussian_pyramid, split_images_into_patches, \
+from Anomaly_detection_BG_FG import create_dataloader, create_gaussian_pyramid, split_images_into_patches, \
     compute_patches_indices_per_scale, show_img, get_gt_bboxes_and_labels
 from mmengine.config import Config
 import math

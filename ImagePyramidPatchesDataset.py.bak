@@ -6,7 +6,6 @@ from torch.utils.data import Dataset
 from PIL import Image
 from torchvision.transforms import Compose
 import torchvision.transforms as transforms
-from torchvision.datasets import DatasetFolder
 from mmrotate.datasets.dota import  DOTAv2Dataset
 
 mean = torch.tensor([0.485, 0.456, 0.406]).view(1, 3, 1, 1)

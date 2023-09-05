@@ -27,7 +27,7 @@ from mmdet.structures.bbox import HorizontalBoxes
 from tqdm import tqdm
 import skimage
 
-from ImagePyramidPatchesDataset import image_pyramid_patches_dataset, transform_to_imshow
+from image_pyramid_patches_dataset import image_pyramid_patches_dataset, transform_to_imshow
 from results import plot_precision_recall_curve, plot_roc_curve, plot_scores_histograms
 from utils import remove_empty_folders
 

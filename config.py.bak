@@ -1,8 +1,7 @@
-
 dataset_type = 'DOTAv2Dataset'
-data_root = 'change_this'
+data_root = './data/split_ss_dota/'
 patches_dataset= dict(
-    path= "change_this",
+    path= "./data/patches_dataset/",
     batch_size=128,
     shuffle=False,
     num_workers=4
@@ -56,7 +55,7 @@ val_dataloader = dict(
     sampler=dict(type='DefaultSampler', shuffle=False),
     dataset=dict(
         type='DOTAv2Dataset',
-        data_root=data_root,
+        data_root='./data/split_ss_dota/',
         ann_file='val/annfiles/',
         data_prefix=dict(img_path='val/images/'),
         test_mode=True,
@@ -82,7 +81,7 @@ train_dataloader = dict(
     sampler=dict(type='DefaultSampler', shuffle=False),
     dataset=dict(
         type='DOTAv2Dataset',
-        data_root=data_root,
+        data_root='./data/split_ss_dota/',
         ann_file='train/annfiles/',
         data_prefix=dict(img_path='train/images/'),
         test_mode=True,
@@ -110,7 +109,7 @@ subval_dataloader = dict(
     sampler=dict(type='DefaultSampler', shuffle=False),
     dataset=dict(
         type='DOTAv2Dataset',
-        data_root=data_root,
+        data_root='./data/split_ss_dota/',
         ann_file='subval/annfiles/',
         data_prefix=dict(img_path='subval/images/'),
         test_mode=True,
@@ -138,7 +137,7 @@ subtrain_dataloader = dict(
     sampler=dict(type='DefaultSampler', shuffle=False),
     dataset=dict(
         type='DOTAv2Dataset',
-        data_root=data_root,
+        data_root='./data/split_ss_dota/',
         ann_file='subtrain/annfiles/',
         data_prefix=dict(img_path='subtrain/images/'),
         test_mode=True,
